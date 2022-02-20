@@ -35,7 +35,7 @@ def get_loc_weather_details():
       district = st.selectbox('Enter your District ',dist)
       
       BASE_URL = "https://api.openweathermap.org/data/2.5/weather?"
-      API_KEY = "1a083bcf96d0efc41fdc2db3c7406d5d"
+      API_KEY = //"your api key"
       URL = BASE_URL + "q=" + district + "&appid=" + API_KEY
   
       # Request for weather information
